@@ -57,7 +57,6 @@ migrations/
 - Add services
 - Add handlers
 - Register routes
-- Remove the sample "Hello World" endpoint
 
 7. Start the project.
 
