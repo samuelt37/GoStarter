@@ -15,7 +15,9 @@ A reusable Go backend template with:
 
 1. Copy this repository:  cp -R GoStarter <NEW_PROJECT>
 
-2. make a new git repo: 
+2. make a new git repo:
+
+	```bash 
 	cd <NEW_DIR>
 	rm -rf .git
 	git init
@@ -24,6 +26,7 @@ A reusable Go backend template with:
 	git remote add origin https://github.com/<your-username>/<NEW_PROJECT>.git
 	git branch -M main
 	git push -u origin main
+	```
 
 3. Update the Go module.
 
