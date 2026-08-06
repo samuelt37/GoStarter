@@ -35,9 +35,15 @@ go mod edit -module github.com/<username>/<project-name>
 go mod tidy
 ```
 
-4. Update project configuration.
+4. create .env file
 
-- Update `.env`
+PORT=8080 
+POSTGRES_DB=test
+POSTGRES_USER=test 
+POSTGRES_PASSWORD=test
+
+5. Update project configuration.
+
 - Update database name (`POSTGRES_DB`)
 - Update database user/password if desired
 - Rename the Docker image (optional)
@@ -50,13 +56,11 @@ Example:
 migrations/
 └── 001_init.sql
 
-6. Replace the example code.
+6. Replace packages in .go files.(main.go, router.go)
 
-- Add models
-- Add repositories
-- Add services
-- Add handlers
-- Register routes
+Replace: github.com/samuelt37/GoStarter
+with: github.com/<username>/<project-name>
+then: go mod tidy
 
 7. Start the project.
 
