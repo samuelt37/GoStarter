@@ -73,3 +73,11 @@ docker compose up --build
 - Visit http://localhost:8080
 - Check the health endpoint
 - Confirm PostgreSQL connected successfully
+
+9. how to build and test
+docker compose down
+docker compose up --build -d
+
+new terminal
+docker compose exec backend go run.<SERVICE>
+
