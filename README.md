@@ -56,7 +56,7 @@ Example:
 migrations/
 └── 001_init.sql
 
-6. Replace packages in .go files.(service/main.go, router.go, migrate/main.go)
+6. Replace packages in .go files.(service/main.go, router.go)
 
 Replace: github.com/samuelt37/GoStarter
 with: github.com/<username>/<project-name>
