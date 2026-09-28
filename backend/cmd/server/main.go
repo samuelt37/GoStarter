@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"net/http"
 	"os"
-	
-	"github.com/samuelt37/GoStarter/internal/router"
+
 	"github.com/samuelt37/GoStarter/internal/database"
+	"github.com/samuelt37/GoStarter/internal/router"
 )
 
 func main() {
@@ -27,7 +27,7 @@ func main() {
 
 	r := router.NewRouter()
 
-	fmt.Println("Server running on :"+port)
+	fmt.Println("Server running on :" + port)
 
 	err = http.ListenAndServe(":"+port, r)
 	if err != nil {

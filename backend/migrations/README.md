@@ -7,4 +7,4 @@ Example:
 001_create_users.up.sql
 001_create_users.down.sql
 
-Run migrations after configuring database environment variables.
+Run migrations after configuring the database environment variables.
